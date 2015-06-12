@@ -1,1 +1,1 @@
-web: ./freegeoip
+web: freegeoip -addr=":$PORT"

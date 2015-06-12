@@ -1,7 +1,18 @@
 {
 	"ImportPath": "github.com/fiorix/freegeoip",
 	"GoVersion": "go1.4.2",
+	"Packages": [
+		"github.com/fiorix/freegeoip/cmd/freegeoip"
+	],
 	"Deps": [
+		{
+			"ImportPath": "github.com/fiorix/go-redis/redis",
+			"Rev": "5fb6326ea7d997722d5d8c3fca9eaabe2cfa76e6"
+		},
+		{
+			"ImportPath": "github.com/gorilla/context",
+			"Rev": "215affda49addc4c8ef7e2534915df2c8c35c6cd"
+		},
 		{
 			"ImportPath": "github.com/howeyc/fsnotify",
 			"Comment": "v0.9.0-14-g4894fe7",
